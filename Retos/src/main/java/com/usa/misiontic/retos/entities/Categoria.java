@@ -44,11 +44,11 @@ public class Categoria  implements Serializable {
         this.description = description;
     }
 
-    public List<Computadores> getComputer() {
+    public List<Computadores> getComputers() {
         return computers;
     }
 
-    public void setComputer(List<Computadores> computers) {
+    public void setComputers(List<Computadores> computers) {
         this.computers = computers;
     }
 }
