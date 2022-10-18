@@ -12,6 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/Computer")
+@CrossOrigin(origins = "*")
 public class ComputadoresControlador {
 
     @Autowired
